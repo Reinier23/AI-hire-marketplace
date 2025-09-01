@@ -1,0 +1,314 @@
+[
+  {
+    "id": "workflow-automator",
+    "name": "Workflow Automator Pro",
+    "vendor": "AIFlow Solutions",
+    "tagline": "Automate complex business processes with intelligent workflow management",
+    "description": "Advanced AI agent that analyzes your business processes and automatically creates optimized workflows. Reduces manual work by up to 80% while maintaining quality and compliance.",
+    "categories": ["workflow", "operations"],
+    "industries": ["tech", "finance", "healthcare"],
+    "skills": ["process optimization", "automation", "workflow design"],
+    "rating": 4.8,
+    "deploymentsCount": 1247,
+    "metrics": [
+      { "label": "Time Saved", "value": 65, "unit": "%" },
+      { "label": "Error Reduction", "value": 78, "unit": "%" },
+      { "label": "ROI", "value": 340, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic workflow templates", "5 workflows", "Email support"] },
+      { "name": "Standard", "monthlyUsd": 299, "features": ["Unlimited workflows", "Advanced analytics", "Priority support", "Custom integrations"] },
+      { "name": "Enterprise", "monthlyUsd": 899, "features": ["Everything in Standard", "Dedicated support", "Custom development", "SLA guarantees"] }
+    ],
+    "compliance": ["GDPR", "SOC2", "ISO27001"],
+    "integrations": ["hubspot", "salesforce", "jira", "slack"],
+    "lastUpdatedISO": "2024-01-15T10:30:00Z",
+    "heroImageUrl": "/assets/workflow-automator.svg"
+  },
+  {
+    "id": "customer-intelligence",
+    "name": "Customer Intelligence Hub",
+    "vendor": "CustomerAI",
+    "tagline": "Transform customer data into actionable insights and personalized experiences",
+    "description": "Comprehensive customer intelligence platform that analyzes customer behavior, predicts needs, and automates personalized marketing campaigns.",
+    "categories": ["customer", "analytics"],
+    "industries": ["retail", "tech", "finance"],
+    "skills": ["customer analytics", "personalization", "marketing automation"],
+    "rating": 4.6,
+    "deploymentsCount": 892,
+    "metrics": [
+      { "label": "Customer Retention", "value": 23, "unit": "%" },
+      { "label": "Conversion Rate", "value": 18, "unit": "%" },
+      { "label": "LTV Increase", "value": 45, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic analytics", "1000 customers", "Standard reports"] },
+      { "name": "Standard", "monthlyUsd": 199, "features": ["Advanced analytics", "Unlimited customers", "Custom dashboards", "API access"] },
+      { "name": "Enterprise", "monthlyUsd": 599, "features": ["Everything in Standard", "White-label solution", "Custom ML models", "24/7 support"] }
+    ],
+    "compliance": ["GDPR", "CCPA", "SOC2"],
+    "integrations": ["hubspot", "salesforce", "shopify", "stripe"],
+    "lastUpdatedISO": "2024-01-10T14:20:00Z",
+    "heroImageUrl": "/assets/customer-intelligence.svg"
+  },
+  {
+    "id": "financial-analyzer",
+    "name": "Financial Analyzer Pro",
+    "vendor": "FinTech AI",
+    "tagline": "AI-powered financial analysis and risk assessment for enterprise decision-making",
+    "description": "Advanced financial modeling and analysis agent that processes complex financial data, identifies trends, and provides actionable insights for investment and risk management decisions.",
+    "categories": ["analytics", "operations"],
+    "industries": ["finance", "insurance", "real-estate"],
+    "skills": ["financial modeling", "risk assessment", "data analysis", "regulatory compliance"],
+    "rating": 4.9,
+    "deploymentsCount": 567,
+    "metrics": [
+      { "label": "Analysis Speed", "value": 85, "unit": "%" },
+      { "label": "Accuracy", "value": 96, "unit": "%" },
+      { "label": "Cost Savings", "value": 420, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic analysis", "5 reports/month", "Standard models"] },
+      { "name": "Standard", "monthlyUsd": 499, "features": ["Advanced analysis", "Unlimited reports", "Custom models", "API access"] },
+      { "name": "Enterprise", "monthlyUsd": 1299, "features": ["Everything in Standard", "Custom development", "Dedicated analyst", "SLA guarantees"] }
+    ],
+    "compliance": ["GDPR", "SOC2", "ISO27001", "PCI-DSS"],
+    "integrations": ["netsuite", "workday", "salesforce", "tableau"],
+    "lastUpdatedISO": "2024-01-12T09:15:00Z",
+    "heroImageUrl": "/assets/financial-analyzer.svg"
+  },
+  {
+    "id": "hr-assistant",
+    "name": "HR Assistant Pro",
+    "vendor": "PeopleTech AI",
+    "tagline": "Streamline HR operations with intelligent recruitment and employee management",
+    "description": "Comprehensive HR management AI that handles recruitment, onboarding, performance reviews, and employee engagement with human-like understanding and efficiency.",
+    "categories": ["operations", "customer"],
+    "industries": ["tech", "finance", "healthcare", "retail"],
+    "skills": ["recruitment", "employee management", "performance analytics", "compliance"],
+    "rating": 4.7,
+    "deploymentsCount": 743,
+    "metrics": [
+      { "label": "Hiring Speed", "value": 45, "unit": "%" },
+      { "label": "Employee Satisfaction", "value": 28, "unit": "pts" },
+      { "label": "Cost per Hire", "value": 35, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic HR tools", "Up to 50 employees", "Standard templates"] },
+      { "name": "Standard", "monthlyUsd": 249, "features": ["Full HR suite", "Unlimited employees", "Advanced analytics", "Custom workflows"] },
+      { "name": "Enterprise", "monthlyUsd": 699, "features": ["Everything in Standard", "Custom integrations", "Dedicated HR specialist", "Priority support"] }
+    ],
+    "compliance": ["GDPR", "SOC2", "EEOC", "ADA"],
+    "integrations": ["workday", "bamboo", "greenhouse", "slack"],
+    "lastUpdatedISO": "2024-01-08T16:45:00Z",
+    "heroImageUrl": "/assets/hr-assistant.svg"
+  },
+  {
+    "id": "sales-optimizer",
+    "name": "Sales Optimizer AI",
+    "vendor": "SalesForce AI",
+    "tagline": "Maximize sales performance with predictive analytics and intelligent lead scoring",
+    "description": "AI-powered sales optimization platform that analyzes customer behavior, predicts buying patterns, and automates sales processes to increase conversion rates and revenue.",
+    "categories": ["customer", "analytics"],
+    "industries": ["tech", "finance", "retail", "real-estate"],
+    "skills": ["lead scoring", "sales forecasting", "customer segmentation", "pipeline optimization"],
+    "rating": 4.5,
+    "deploymentsCount": 1156,
+    "metrics": [
+      { "label": "Conversion Rate", "value": 32, "unit": "%" },
+      { "label": "Sales Velocity", "value": 41, "unit": "%" },
+      { "label": "Revenue Growth", "value": 28, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic lead scoring", "100 leads/month", "Standard reports"] },
+      { "name": "Standard", "monthlyUsd": 179, "features": ["Advanced analytics", "Unlimited leads", "Custom scoring models", "API access"] },
+      { "name": "Enterprise", "monthlyUsd": 449, "features": ["Everything in Standard", "Custom ML models", "Dedicated sales consultant", "Advanced integrations"] }
+    ],
+    "compliance": ["GDPR", "CCPA", "SOC2"],
+    "integrations": ["salesforce", "hubspot", "pipedrive", "zapier"],
+    "lastUpdatedISO": "2024-01-14T11:20:00Z",
+    "heroImageUrl": "/assets/sales-optimizer.svg"
+  },
+  {
+    "id": "supply-chain-ai",
+    "name": "Supply Chain Optimizer",
+    "vendor": "LogiTech Solutions",
+    "tagline": "Optimize supply chain operations with predictive analytics and intelligent inventory management",
+    "description": "AI-powered supply chain optimization platform that predicts demand, optimizes inventory levels, and automates procurement processes to reduce costs and improve efficiency.",
+    "categories": ["operations", "analytics"],
+    "industries": ["retail", "manufacturing", "logistics", "healthcare"],
+    "skills": ["demand forecasting", "inventory optimization", "procurement automation", "logistics planning"],
+    "rating": 4.8,
+    "deploymentsCount": 634,
+    "metrics": [
+      { "label": "Inventory Costs", "value": 25, "unit": "%" },
+      { "label": "Delivery Time", "value": 40, "unit": "%" },
+      { "label": "Stockout Reduction", "value": 85, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic forecasting", "Single location", "Standard reports"] },
+      { "name": "Standard", "monthlyUsd": 399, "features": ["Advanced optimization", "Multi-location", "Custom algorithms", "API access"] },
+      { "name": "Enterprise", "monthlyUsd": 999, "features": ["Everything in Standard", "Custom ML models", "Dedicated analyst", "Advanced integrations"] }
+    ],
+    "compliance": ["ISO9001", "SOC2", "GDPR"],
+    "integrations": ["netsuite", "sap", "oracle", "tableau"],
+    "lastUpdatedISO": "2024-01-11T13:30:00Z",
+    "heroImageUrl": "/assets/supply-chain-ai.svg"
+  },
+  {
+    "id": "marketing-automation",
+    "name": "Marketing Automation Suite",
+    "vendor": "MarTech AI",
+    "tagline": "Automate marketing campaigns with AI-driven personalization and optimization",
+    "description": "Comprehensive marketing automation platform that creates personalized campaigns, optimizes content, and analyzes performance to maximize ROI and customer engagement.",
+    "categories": ["customer", "workflow"],
+    "industries": ["retail", "tech", "finance", "healthcare"],
+    "skills": ["campaign automation", "content optimization", "personalization", "performance analytics"],
+    "rating": 4.6,
+    "deploymentsCount": 987,
+    "metrics": [
+      { "label": "Email Open Rate", "value": 34, "unit": "%" },
+      { "label": "Click-through Rate", "value": 28, "unit": "%" },
+      { "label": "Conversion Rate", "value": 22, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic automation", "1000 contacts", "Standard templates"] },
+      { "name": "Standard", "monthlyUsd": 159, "features": ["Advanced automation", "Unlimited contacts", "Custom workflows", "A/B testing"] },
+      { "name": "Enterprise", "monthlyUsd": 399, "features": ["Everything in Standard", "Custom integrations", "Dedicated marketer", "Advanced analytics"] }
+    ],
+    "compliance": ["GDPR", "CCPA", "CAN-SPAM"],
+    "integrations": ["hubspot", "mailchimp", "salesforce", "google-analytics"],
+    "lastUpdatedISO": "2024-01-09T15:15:00Z",
+    "heroImageUrl": "/assets/marketing-automation.svg"
+  },
+  {
+    "id": "data-analytics",
+    "name": "Data Analytics Pro",
+    "vendor": "DataInsight AI",
+    "tagline": "Transform raw data into actionable business intelligence with advanced analytics",
+    "description": "Enterprise-grade data analytics platform that processes large datasets, identifies patterns, and generates insights to drive data-driven decision making across your organization.",
+    "categories": ["analytics", "operations"],
+    "industries": ["tech", "finance", "healthcare", "retail"],
+    "skills": ["data processing", "statistical analysis", "visualization", "predictive modeling"],
+    "rating": 4.9,
+    "deploymentsCount": 445,
+    "metrics": [
+      { "label": "Processing Speed", "value": 90, "unit": "%" },
+      { "label": "Insight Accuracy", "value": 94, "unit": "%" },
+      { "label": "Time to Insight", "value": 75, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic analytics", "1GB data", "Standard reports"] },
+      { "name": "Standard", "monthlyUsd": 299, "features": ["Advanced analytics", "100GB data", "Custom dashboards", "API access"] },
+      { "name": "Enterprise", "monthlyUsd": 799, "features": ["Everything in Standard", "Unlimited data", "Custom ML models", "Dedicated analyst"] }
+    ],
+    "compliance": ["GDPR", "SOC2", "ISO27001", "HIPAA"],
+    "integrations": ["tableau", "powerbi", "python", "r"],
+    "lastUpdatedISO": "2024-01-13T08:45:00Z",
+    "heroImageUrl": "/assets/data-analytics.svg"
+  },
+  {
+    "id": "customer-support",
+    "name": "Customer Support AI",
+    "vendor": "SupportBot Technologies",
+    "tagline": "Provide 24/7 customer support with intelligent chatbots and automated resolution",
+    "description": "AI-powered customer support platform that handles inquiries, resolves issues, and escalates complex problems to human agents, ensuring consistent and efficient customer service.",
+    "categories": ["customer", "workflow"],
+    "industries": ["retail", "tech", "finance", "healthcare"],
+    "skills": ["natural language processing", "issue resolution", "escalation management", "knowledge base"],
+    "rating": 4.4,
+    "deploymentsCount": 1234,
+    "metrics": [
+      { "label": "Response Time", "value": 85, "unit": "%" },
+      { "label": "Resolution Rate", "value": 72, "unit": "%" },
+      { "label": "Customer Satisfaction", "value": 89, "unit": "pts" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic chatbot", "100 conversations/month", "Email support"] },
+      { "name": "Standard", "monthlyUsd": 129, "features": ["Advanced chatbot", "Unlimited conversations", "Custom integrations", "Priority support"] },
+      { "name": "Enterprise", "monthlyUsd": 349, "features": ["Everything in Standard", "Custom development", "Dedicated support", "Advanced analytics"] }
+    ],
+    "compliance": ["GDPR", "CCPA", "SOC2"],
+    "integrations": ["zendesk", "intercom", "freshdesk", "slack"],
+    "lastUpdatedISO": "2024-01-07T12:00:00Z",
+    "heroImageUrl": "/assets/customer-support.svg"
+  },
+  {
+    "id": "compliance-monitor",
+    "name": "Compliance Monitor Pro",
+    "vendor": "RegTech Solutions",
+    "tagline": "Ensure regulatory compliance with automated monitoring and reporting",
+    "description": "AI-powered compliance monitoring platform that automatically tracks regulatory requirements, generates reports, and alerts you to potential compliance issues before they become problems.",
+    "categories": ["operations", "analytics"],
+    "industries": ["finance", "healthcare", "tech", "insurance"],
+    "skills": ["regulatory monitoring", "risk assessment", "audit trails", "reporting"],
+    "rating": 4.7,
+    "deploymentsCount": 456,
+    "metrics": [
+      { "label": "Compliance Rate", "value": 98, "unit": "%" },
+      { "label": "Risk Detection", "value": 92, "unit": "%" },
+      { "label": "Audit Time", "value": 70, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic monitoring", "3 regulations", "Standard reports"] },
+      { "name": "Standard", "monthlyUsd": 399, "features": ["Advanced monitoring", "Unlimited regulations", "Custom alerts", "API access"] },
+      { "name": "Enterprise", "monthlyUsd": 999, "features": ["Everything in Standard", "Custom development", "Dedicated compliance officer", "Advanced integrations"] }
+    ],
+    "compliance": ["GDPR", "SOC2", "ISO27001", "HIPAA", "PCI-DSS"],
+    "integrations": ["workday", "salesforce", "netsuite", "jira"],
+    "lastUpdatedISO": "2024-01-06T10:30:00Z",
+    "heroImageUrl": "/assets/compliance-monitor.svg"
+  },
+  {
+    "id": "project-manager",
+    "name": "Project Manager AI",
+    "vendor": "ProjectFlow AI",
+    "tagline": "Streamline project management with intelligent planning and resource optimization",
+    "description": "AI-powered project management platform that optimizes resource allocation, predicts project timelines, and automates task management to ensure projects are delivered on time and within budget.",
+    "categories": ["operations", "workflow"],
+    "industries": ["tech", "construction", "consulting", "manufacturing"],
+    "skills": ["project planning", "resource optimization", "timeline prediction", "risk management"],
+    "rating": 4.5,
+    "deploymentsCount": 678,
+    "metrics": [
+      { "label": "Project Delivery", "value": 89, "unit": "%" },
+      { "label": "Resource Utilization", "value": 34, "unit": "%" },
+      { "label": "Cost Savings", "value": 28, "unit": "%" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic planning", "3 projects", "Standard templates"] },
+      { "name": "Standard", "monthlyUsd": 199, "features": ["Advanced planning", "Unlimited projects", "Custom workflows", "API access"] },
+      { "name": "Enterprise", "monthlyUsd": 499, "features": ["Everything in Standard", "Custom integrations", "Dedicated PM", "Advanced analytics"] }
+    ],
+    "compliance": ["GDPR", "SOC2", "ISO9001"],
+    "integrations": ["jira", "asana", "monday", "microsoft-project"],
+    "lastUpdatedISO": "2024-01-05T14:15:00Z",
+    "heroImageUrl": "/assets/project-manager.svg"
+  },
+  {
+    "id": "quality-assurance",
+    "name": "Quality Assurance AI",
+    "vendor": "QualityTech Solutions",
+    "tagline": "Ensure product quality with automated testing and intelligent defect detection",
+    "description": "AI-powered quality assurance platform that automates testing processes, detects defects early, and ensures consistent product quality across all stages of development and production.",
+    "categories": ["operations", "analytics"],
+    "industries": ["tech", "manufacturing", "healthcare", "automotive"],
+    "skills": ["automated testing", "defect detection", "quality metrics", "process optimization"],
+    "rating": 4.6,
+    "deploymentsCount": 567,
+    "metrics": [
+      { "label": "Defect Detection", "value": 94, "unit": "%" },
+      { "label": "Testing Speed", "value": 78, "unit": "%" },
+      { "label": "Quality Score", "value": 96, "unit": "pts" }
+    ],
+    "priceTiers": [
+      { "name": "Trial", "monthlyUsd": 0, "features": ["Basic testing", "100 test cases", "Standard reports"] },
+      { "name": "Standard", "monthlyUsd": 249, "features": ["Advanced testing", "Unlimited test cases", "Custom workflows", "API access"] },
+      { "name": "Enterprise", "monthlyUsd": 649, "features": ["Everything in Standard", "Custom integrations", "Dedicated QA engineer", "Advanced analytics"] }
+    ],
+    "compliance": ["ISO9001", "SOC2", "GDPR"],
+    "integrations": ["jira", "jenkins", "selenium", "testrail"],
+    "lastUpdatedISO": "2024-01-04T16:20:00Z",
+    "heroImageUrl": "/assets/quality-assurance.svg"
+  }
+]

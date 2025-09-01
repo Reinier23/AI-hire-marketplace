@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Agent Details - Consultant AI Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="marketplace-header">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to Marketplace</a>
+            <h1 id="agentName">AI Agent Details</h1>
+        </div>
+    </header>
+
+    <main class="agent-main">
+        <div class="container">
+            <!-- Loading State -->
+            <div id="loadingState" class="loading-state">
+                <div class="loading-spinner"></div>
+                <p>Loading agent details...</p>
+            </div>
+
+            <!-- Error State -->
+            <div id="errorState" class="error-state hidden">
+                <h3>Agent not found</h3>
+                <p>The requested AI agent could not be found or loaded.</p>
+                <a href="index.html" class="cta-button">Return to Marketplace</a>
+            </div>
+
+            <!-- Agent Content -->
+            <div id="agentContent" class="agent-content hidden">
+                <!-- Agent Header -->
+                <div class="agent-header">
+                    <div class="agent-hero">
+                        <div class="agent-image">
+                            <div id="agentImage" class="agent-image-placeholder"></div>
+                        </div>
+                        <div class="agent-info">
+                            <h2 id="agentTitle">Agent Name</h2>
+                            <p id="agentTagline" class="tagline">Agent tagline</p>
+                            <div class="agent-meta">
+                                <span class="vendor">by <span id="agentVendor">Vendor</span></span>
+                                <div class="rating">
+                                    <span id="agentRating" class="stars"></span>
+                                    <span id="agentRatingText">4.5 (120 reviews)</span>
+                                </div>
+                                <span class="deployments"><span id="agentDeployments">1,234</span> deployments</span>
+                            </div>
+                            <div class="agent-badges" id="agentBadges">
+                                <!-- Badges will be populated here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Tabs -->
+                <nav class="agent-nav">
+                    <button class="nav-tab active" data-section="overview">Overview</button>
+                    <button class="nav-tab" data-section="playbooks">Playbooks</button>
+                    <button class="nav-tab" data-section="benchmarks">Benchmarks</button>
+                    <button class="nav-tab" data-section="reviews">Reviews</button>
+                    <button class="nav-tab" data-section="pricing">Pricing</button>
+                </nav>
+
+                <!-- Content Sections -->
+                <div class="agent-sections">
+                    <!-- Overview Section -->
+                    <section id="overview" class="content-section active">
+                        <div class="section-content">
+                            <div class="description">
+                                <h3>Description</h3>
+                                <p id="agentDescription">Agent description will be loaded here.</p>
+                            </div>
+                            
+                            <div class="key-metrics">
+                                <h3>Key Metrics</h3>
+                                <div class="metrics-grid" id="agentMetrics">
+                                    <!-- Metrics will be populated here -->
+                                </div>
+                            </div>
+                            
+                            <div class="integrations-compliance">
+                                <div class="integrations">
+                                    <h3>Integrations</h3>
+                                    <div class="integration-list" id="agentIntegrations">
+                                        <!-- Integrations will be populated here -->
+                                    </div>
+                                </div>
+                                
+                                <div class="compliance">
+                                    <h3>Compliance</h3>
+                                    <div class="compliance-list" id="agentCompliance">
+                                        <!-- Compliance badges will be populated here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Playbooks Section -->
+                    <section id="playbooks" class="content-section">
+                        <div class="section-content">
+                            <h3>Use Case Playbooks</h3>
+                            <div class="playbooks-list" id="agentPlaybooks">
+                                <!-- Playbooks will be populated here -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Benchmarks Section -->
+                    <section id="benchmarks" class="content-section">
+                        <div class="section-content">
+                            <h3>Performance Benchmarks</h3>
+                            <div class="benchmarks-content" id="agentBenchmarks">
+                                <!-- Benchmarks will be populated here -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Reviews Section -->
+                    <section id="reviews" class="content-section">
+                        <div class="section-content">
+                            <div class="reviews-header">
+                                <h3>Customer Reviews</h3>
+                                <div class="reviews-controls">
+                                    <label for="reviewSort">Sort by:</label>
+                                    <select id="reviewSort" aria-label="Sort reviews">
+                                        <option value="newest">Newest</option>
+                                        <option value="rating">Highest Rating</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="reviews-list" id="agentReviews">
+                                <!-- Reviews will be populated here -->
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Pricing Section -->
+                    <section id="pricing" class="content-section">
+                        <div class="section-content">
+                            <h3>Pricing Plans</h3>
+                            <div class="pricing-grid" id="agentPricing">
+                                <!-- Pricing tiers will be populated here -->
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Hire Modal -->
+    <dialog id="hireModal" class="hire-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Hire AI Agent</h3>
+                <button class="close-modal" aria-label="Close modal">&times;</button>
+            </div>
+            <form id="hireForm" class="hire-form">
+                <div class="form-group">
+                    <label for="planSelect">Plan:</label>
+                    <select id="planSelect" required>
+                        <option value="">Select a plan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="workEmail">Work Email:</label>
+                    <input type="email" id="workEmail" required placeholder="your.email@company.com">
+                </div>
+                <div class="form-group">
+                    <label for="note">Additional Notes:</label>
+                    <textarea id="note" rows="3" placeholder="Any specific requirements or questions..."></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="cancel-btn" onclick="closeHireModal()">Cancel</button>
+                    <button type="submit" class="cta-button">Hire Agent</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+
+    <script src="app.js"></script>
+</body>
+</html>
