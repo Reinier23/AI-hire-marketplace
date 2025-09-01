@@ -4,8 +4,8 @@ A modern, static AI agents hiring platform built with vanilla HTML, CSS, and Jav
 
 ## Features
 
-- **Homepage** (`/homepage.html`) - Landing page with hero section and feature highlights
-- **Marketplace Browse Page** (`/index.html`) - Search, filter, and browse AI agents
+- **Homepage** (`/index.html`) - Landing page with hero section and feature highlights
+- **Marketplace Browse Page** (`/marketplace.html`) - Search, filter, and browse AI agents
 - **Agent Detail Pages** (`/agent.html`) - Comprehensive agent information with tabs
 - **Responsive Design** - Mobile-first design that works on all devices
 - **Search & Filtering** - Find agents by category, industry, rating, and more
@@ -17,8 +17,8 @@ A modern, static AI agents hiring platform built with vanilla HTML, CSS, and Jav
 
 ```
 /
-├── homepage.html       # Landing page with hero and features
-├── index.html          # Marketplace browse page
+├── index.html          # Landing page with hero and features
+├── marketplace.html    # Marketplace browse page
 ├── agent.html          # Agent detail template page
 ├── styles.css          # All site styling
 ├── app.js             # Marketplace application logic
@@ -32,7 +32,7 @@ A modern, static AI agents hiring platform built with vanilla HTML, CSS, and Jav
 
 ## Quick Start
 
-1. **Open `homepage.html`** to see the landing page
+1. **Open `index.html`** to see the landing page
 2. **Click "Browse AI Agents"** to go to the marketplace
 3. **Browse AI agents** with search and filtering
 4. **Click agent cards** to view detailed information
@@ -40,8 +40,8 @@ A modern, static AI agents hiring platform built with vanilla HTML, CSS, and Jav
 
 ## Site Navigation
 
-- **Homepage** (`homepage.html`) - Company overview and value proposition
-- **Marketplace** (`index.html`) - Browse and search AI agents
+- **Homepage** (`index.html`) - Company overview and value proposition
+- **Marketplace** (`marketplace.html`) - Browse and search AI agents
 - **Agent Details** (`agent.html?id=agent-id`) - Individual agent information
 
 ## Deployment
